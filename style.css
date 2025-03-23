@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(26, 24, 24);
+    color: rgb(244, 240, 240);
+}
+
+.main-container {
+    height: auto;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.header-container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+    justify-content: start;
+    align-items: center;
+}
+
+.left-side {
+    height: auto;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.vscode-title-container {
+    height: auto;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.vs-icon-container {
+    width: 21px;
+}
+
+.vs-icon-container img {
+    width: 100%;
+  
+}
+
+.title-container {
+    height: auto;
+}
+
+.title-container p {
+    font-size: 21px;
+    font-family: 'Inter';
+    font-weight: bold;
+  
+}
+
+.nav-links {
+    height: auto;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 1rem;
+}
+
+.nav-links a {
+    display: block;
+    text-decoration: none;
+    color: #afa8a8;
+}
+
+.right-side {
+    height: auto;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    column-gap: .2rem;
+}
+
+.sun-container, .search-container {
+    width: 20px;
+}
+
+.sun-container img , .search-container img{
+    width: 100%;
+}
+
+.search-input-container {
+    height: auto;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.search-container img {
+    position:relative;
+    left:1.8rem;
+    padding-top:.4rem;
+    fill: white;
+}
+.sun-container img  {
+    color: white;
+}
+.input-container {
+    height: auto;
+}
+
+.input-container input {
+    padding: .4rem 2rem;
+    background-color: transparent;
+    border: 1px solid grey;
+    outline: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.button-container {
+    height: auto;
+    width: fit-content;
+}
+
+.button-container button {
+    padding: .5rem 1.5rem;
+    background-color: rgb(15, 108, 230);
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
