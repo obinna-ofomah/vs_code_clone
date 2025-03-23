@@ -81,6 +81,8 @@ body {
     display: flex;
     align-items: center;
     column-gap: .2rem;
+    color: rgb(245, 240, 240);
+    fill: rgb(245, 240, 240);
 }
 
 .sun-container, .search-container {
